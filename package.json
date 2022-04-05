@@ -1,0 +1,18 @@
+{
+  "name": "bloodhound",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "Bloodhound": "bin/search.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Averin",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.1.0"
+  }
+}
