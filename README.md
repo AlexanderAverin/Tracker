@@ -17,15 +17,3 @@ Or
 ```bash
 $ tracker -rootDirectory /urs/currentDir --recursively true --format list
 ```
-
-Tool have api (return parsed files list with mathing lines).
-
-
-
-A list of things to come in the future:
-
-​	>  highlighting of relevant words and expressions
-
-​	>  keywords lists (arrays)
-
-​	>  regexp search
