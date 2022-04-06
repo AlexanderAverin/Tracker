@@ -1,7 +1,9 @@
 ### Instalation
 
 ```bash
-$ brew install tracker
+$ git clone https://github.com/AlexanderAverin/tracker.git
+$ cd tracker
+$ make install
 ```
 
 #### Usage
@@ -9,11 +11,19 @@ $ brew install tracker
 Tool have 3 option: root directory (default: <current dir>), recursively (default: false ) and output format (default: "arrow style").
 
 ```bash
-$ tracker -d /usr/currentDir -r true -f list
+$ tracker -d /usr/currentDir -r true "<keyword>"
 ```
 
-Or 
+To be:
+```
+file.js ===> 
+<matching lines>
+ 
 
-```bash
-$ tracker -rootDirectory /urs/currentDir --recursively true --format list
+Or ```bash
+$ tracker -rootDirectory /urs/currentDir --recursively true --format list "<keyword>"
+```
+To be:
+```
+<matching lines>
 ```

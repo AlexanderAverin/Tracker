@@ -1,2 +1,2 @@
-publish:
-	npm publish --dry-run
+install:
+	npm publish --dry-run && npm link
