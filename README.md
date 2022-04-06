@@ -17,13 +17,17 @@ $ tracker -d /usr/currentDir -r true "<keyword>"
 To be:
 ```
 file.js ===> 
-<matching lines>
- 
+<first matching line>
+<secons matching line>
+...
+``` 
 
 Or ```bash
 $ tracker -rootDirectory /urs/currentDir --recursively true --format list "<keyword>"
 ```
 To be:
 ```
-<matching lines>
+<first matching line>
+<second matching line>
+...
 ```
