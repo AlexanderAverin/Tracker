@@ -1,5 +1,7 @@
 ### Instalation
 
+Required: nodejs >= 16.x
+
 ```bash
 $ git clone https://github.com/AlexanderAverin/tracker.git
 $ cd tracker
@@ -13,23 +15,19 @@ Tool have 3 option: root directory (default: <current dir>), recursively (defaul
 ```bash
 $ tracker -d /usr/currentDir -r true "<keyword>"
 ```
-
-To be:
-
+                    ↓
 ```
 file.js ===> 
 <first matching line>
 <secons matching line>...
 ```
 
-Or 
+Or
 
 ```bash
 $ tracker -rootDirectory /urs/currentDir --recursively true --format list "<keyword>"
 ```
-
-To be:
-
+                    ↓
 ```
 <first matching line>
 <second matching line>...
