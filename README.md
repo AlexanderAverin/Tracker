@@ -15,6 +15,7 @@ Tool have 3 option: root directory (default: <current dir>), recursively (defaul
 ```bash
 $ tracker -d /usr/currentDir -r true "<keyword>"
 ```
+
                     ↓
 ```
 file.js ===> 
@@ -27,6 +28,7 @@ Or
 ```bash
 $ tracker -rootDirectory /urs/currentDir --recursively true --format list "<keyword>"
 ```
+
                     ↓
 ```
 <first matching line>
