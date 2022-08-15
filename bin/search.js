@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-import { Command } from 'commander';
+import { Command } from 'commander'
 
-import parse from '../src/parser.js';
-import formatList from '../src/formater.js';
+import parse from '../src/parser.js'
+import formatList from '../src/formater.js'
 
-const program = new Command();
+const program = new Command()
 
 program
   .description('Bloodhound is a text matching utility for files')
@@ -15,10 +15,10 @@ program
   .argument('<keyword>')
 
   .action((keyword) => {
-    const options = program.opts();
-    const { rootDirectory, recursively, format } = options;
+    const options = program.opts()
+    const { rootDirectory, recursively, format } = options
 
-    parse(rootDirectory, keyword, recursively).then((files) => formatList(files, format));
-  });
+    parse(rootDirectory, keyword, recursively).then((files) => formatList(files, format))
+  })
 
-program.parse(process.argv);
+program.parse(process.argv)
